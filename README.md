@@ -42,6 +42,6 @@ Check out my other projects on GitHub! I’ve built a variety of web application
 ## ✉️ Contact Me
 Feel free to reach out for collaborations, freelance work, or just to chat about web development!
 
-- **Email**: [youremail@example.com](mailto:shubhammaurya996633@gmail.com)
-- **GitHub**: [Your GitHub](https://github.com/shubhamm996633)
-- **LinkedIn**: [Your LinkedIn](https://linkedin.com/in/shubham996633)
+- **Email**: [shubhammaurya996633@gmail.com](mailto:shubhammaurya996633@gmail.com)
+- **GitHub**: [Shubhamm996633 - GitHub](https://github.com/shubhamm996633)
+- **LinkedIn**: [Shubham996633 - LinkedIn](https://linkedin.com/in/shubham996633)
