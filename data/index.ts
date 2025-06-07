@@ -7,7 +7,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I mainly work on Next JS, Node JS and Golang  ",
+    title: "I mainly work on Next JS, Node JS, Python and Golang  ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -17,7 +17,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I Have experience in Database and Deployment",
+    title: "Build RAG Bots and AI Workflow Apps",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -37,7 +37,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Learning new Libraries and AI Stacks.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -48,7 +48,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Learning new concepts and libraries ",
+    title:
+      "Building Trading Bot, currently the model has 75% Win Rate and 0.93 Accuracy ",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -100,6 +101,14 @@ export const projects = [
     img: "/car.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://jo-car-show.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "Eventify ",
+    des: "Constructed a platform for event creation and ticketing, integrating Stripe ",
+    img: "/eventify.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg"],
+    link: "https://eventify-liart.vercel.app/",
   },
 ];
 
@@ -176,7 +185,7 @@ export const socialMedia = [
   {
     id: 2,
     img: "/twit.svg",
-    link: "https://x.com/shubham9966333",
+    link: "https://x.com/Shubham99663333",
   },
   {
     id: 3,

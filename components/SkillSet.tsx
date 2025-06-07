@@ -1,7 +1,7 @@
 import { AnimatePresence, motion } from "framer-motion";
 import React from "react";
 
-import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
+// import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 
 const SkillSet = () => {
   return (
@@ -15,17 +15,17 @@ const SkillSet = () => {
           icon={<AceternityIcon order="Tech Skills" />}
           des="I build dynamic, scalable web applications that merge creativity with robust technology. Specializing in modern frameworks like Next.js, React, and more"
         >
-          <CanvasRevealEffect
+          {/* <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900 rounded-3xl overflow-hidden"
-          />
+          /> */}
         </Card>
         <Card
           title="Deployment"
           icon={<AceternityIcon order="Deployment" />}
           des="Have a experience in Testing via CI/CD pipelines and also have experience in Jenkins and Kubernates"
         >
-          <CanvasRevealEffect
+          {/* <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-pink-900 rounded-3xl overflow-hidden"
             colors={[
@@ -33,18 +33,18 @@ const SkillSet = () => {
               [221, 255, 247],
             ]}
             dotSize={2}
-          />
+          /> */}
         </Card>
         <Card
           title="Non Tech "
           icon={<AceternityIcon order="Non Tech " />}
           des="Have intreseted in universe frequency, have fond of nature beauty and also intrested in Stock Market"
         >
-          <CanvasRevealEffect
+          {/* <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-sky-600 rounded-3xl overflow-hidden"
             colors={[[125, 211, 252]]}
-          />
+          /> */}
         </Card>
       </div>
     </section>
