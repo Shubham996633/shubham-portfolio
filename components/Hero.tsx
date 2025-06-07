@@ -44,13 +44,26 @@ const Hero = () => {
             Hi! I&apos;m Shubham, Crafting Scalable & Interactive Solutions.
           </p>
 
-          <a href="#about">
-            <MagicButton
-              title="Check my tech stack"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          </a>
+          <div className="flex flex-row gap-3">
+            <a href="#contact">
+              <MagicButton
+                title="Contact"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </a>
+
+            <a
+              href="https://drive.google.com/file/d/1ytcLgOdYjZteUDRKLilHk8E1tf6SJZuT/view?usp=sharing"
+              target="_blank"
+            >
+              <MagicButton
+                title="Resume"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </div>
