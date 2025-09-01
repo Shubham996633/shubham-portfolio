@@ -72,7 +72,7 @@ _AI-powered music plugin generation system_
 
 - **Tech**: AI/ML, LLM Integration, Plugin Architecture
 - **Features**: Automated plugin generation, YouTube demo integration
-- **Demo**: [Watch on YouTube](#)
+- **Demo**: [Watch on YouTube](https://www.youtube.com/watch?v=pgkpgvwFMKg)
 
 ### **2. Jo Airplane Game** ✈️
 
@@ -156,7 +156,7 @@ _Galgotias College of Engineering | 2022 - 2026_
 
 ## 📄 Resume
 
-📥 [Download Resume (PDF)](/Shubham.pdf)
+📥 [Download Resume (PDF)](/public/Shubham.pdf)
 
 ## 🚀 Let's Build Something Amazing!
 
