@@ -156,7 +156,7 @@ _Galgotias College of Engineering | 2022 - 2026_
 
 ## 📄 Resume
 
-📥 [Download Resume (PDF)](/public/Shubham.pdf)
+📥 [Download Resume (PDF)](https://shubham-portfolio-azure.vercel.app/Shubham.pdf)
 
 ## 🚀 Let's Build Something Amazing!
 
