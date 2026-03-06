@@ -1,9 +1,10 @@
+"use client";
+
 import { motion } from "framer-motion";
 import {
   FaClock,
   FaCalendarAlt,
   FaMapMarkerAlt,
-  FaLaptopCode,
 } from "react-icons/fa";
 
 const WorkSchedule = () => {
@@ -11,73 +12,74 @@ const WorkSchedule = () => {
     {
       id: 1,
       period: "Current",
-      title: "Full-Time Internship",
-      company: "Arkahub",
-      duration: "Jun 2025 - Present",
-      location: "Remote, India",
+      title: "Full-Stack & AI/LLM Backend Engineer (Lead)",
+      company: "CareerCraft360",
+      duration: "Sep 2024 - Present",
+      location: "Remote",
       description:
-        "Working on website development, solar design flow, and CI/CD pipelines",
+        "Building and maintaining AI-powered career coaching platform with Next.js, FastAPI, GCP. LLM/RAG integration, Stripe payments, real-time WebSocket features.",
       hours: "40+ hours/week",
       status: "Active",
     },
     {
       id: 2,
-      period: "Recent",
-      title: "Part-Time Internship",
-      company: "GoPool",
-      duration: "Jun 2025 - Aug 2025",
-      location: "Remote, India",
+      period: "Current",
+      title: "Software Developer Engineer Intern",
+      company: "Xoidlabs",
+      duration: "Jan 2026 - Present",
+      location: "Remote",
       description:
-        "Backend development in GoLang, CI/CD implementation, WebSocket integration",
-      hours: "30 hours/week",
-      status: "Completed",
+        "Full-stack development for Trukoder client project, Zapier automations, and contributing to core product Recapi.ai.",
+      hours: "40+ hours/week",
+      status: "Active",
     },
     {
       id: 3,
-      period: "Long-term",
-      title: "Extended Internship",
-      company: "Monkey Science",
-      duration: "Nov 2023 - Jun 2025",
-      location: "Remote, India",
+      period: "Recent",
+      title: "Full-Stack & Automation Lead",
+      company: "ArkaHub",
+      duration: "Jun 2025 - Jan 2026",
+      location: "Remote",
       description:
-        "Admin panel development, microservices architecture, invoicing system",
+        "Zoho Bigin & Analytics automation, Next.js + Supabase portal, Python roof extraction system, CircleCI + Docker pipelines.",
       hours: "40+ hours/week",
       status: "Completed",
     },
     {
       id: 4,
-      period: "Ongoing",
-      title: "Freelance Projects",
-      company: "Various Clients",
-      duration: "Apr 2023 - Present",
-      location: "Remote, Germany/India",
+      period: "Recent",
+      title: "Backend & DevOps Engineer Intern",
+      company: "GoPool",
+      duration: "Jun 2025 - Aug 2025",
+      location: "Remote",
       description:
-        "Full-stack web development, responsive design, client management. Currently engaged in one active project",
+        "Scalable GoLang services, FastAPI WebSocket for real-time AI gym analytics, zero-downtime Azure deployments.",
       hours: "30 hours/week",
-      status: "Active",
+      status: "Completed",
     },
     {
       id: 5,
-      period: "Academic",
-      title: "B.Tech Studies",
-      company: "Galgotias College",
-      duration: "Nov 2022 - Jun 2026",
-      location: "Greater Noida, India",
+      period: "Long-term",
+      title: "Full-Stack Developer Intern",
+      company: "Monkey Science",
+      duration: "Nov 2023 - Jun 2025",
+      location: "Remote, Bangalore",
       description:
-        "Computer Science with focus on software engineering and algorithms",
-      hours: "Full-time student",
-      status: "In Progress",
+        "Designed 8 scalable FastAPI microservices with Zoho Books invoicing automation. Built centralized admin dashboard.",
+      hours: "40+ hours/week",
+      status: "Completed",
     },
     {
       id: 6,
-      period: "Beta Testing",
-      title: "Product Testing",
-      company: "Nothing",
-      duration: "Dec 2024 - Present",
-      location: "Remote, India",
-      description: "Device beta testing, bug reporting, quality assurance",
-      hours: "5-10 hours/week",
-      status: "Active",
+      period: "Academic",
+      title: "B.Tech - Computer Science & Engineering",
+      company: "Dr. A.P.J. Abdul Kalam Technical University",
+      duration: "Nov 2022 - Jun 2026",
+      location: "Lucknow, India",
+      description:
+        "SGPA: 7.51. Relevant: Data Structures, Algorithms, DBMS, Operating Systems, Computer Networks, Artificial Intelligence.",
+      hours: "Full-time student",
+      status: "In Progress",
     },
   ];
 
@@ -86,18 +88,18 @@ const WorkSchedule = () => {
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.15,
+        staggerChildren: 0.12,
       },
     },
   };
 
   const itemVariants = {
-    hidden: { opacity: 0, y: 50 },
+    hidden: { opacity: 0, y: 30 },
     visible: {
       opacity: 1,
       y: 0,
       transition: {
-        duration: 0.6,
+        duration: 0.5,
         ease: "easeOut",
       },
     },
@@ -116,22 +118,18 @@ const WorkSchedule = () => {
     }
   };
 
-  const getPeriodColor = (period: string) => {
+  const getTimelineColor = (period: string) => {
     switch (period) {
       case "Current":
-        return "from-green-500 to-emerald-500";
+        return "bg-green-500";
       case "Recent":
-        return "from-blue-500 to-cyan-500";
+        return "bg-blue-500";
       case "Long-term":
-        return "from-purple-500 to-pink-500";
-      case "Ongoing":
-        return "from-orange-500 to-red-500";
+        return "bg-purple-500";
       case "Academic":
-        return "from-indigo-500 to-purple-500";
-      case "Beta Testing":
-        return "from-teal-500 to-green-500";
+        return "bg-indigo-500";
       default:
-        return "from-gray-500 to-gray-600";
+        return "bg-gray-500";
     }
   };
 
@@ -148,104 +146,81 @@ const WorkSchedule = () => {
           Work <span className="text-purple">Schedule</span> & Timeline
         </h1>
         <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
-          A comprehensive overview of my current work commitments, internship
-          schedule, and time allocation across different projects and roles.
+          My professional journey and current work commitments across roles.
         </p>
       </motion.div>
 
+      {/* Timeline */}
       <motion.div
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
-        className="grid grid-cols-1 lg:grid-cols-2 gap-6 max-w-7xl mx-auto"
+        className="max-w-4xl mx-auto px-4"
       >
-        {scheduleData.map((item, index) => (
-          <motion.div
-            key={item.id}
-            variants={itemVariants}
-            className="group relative bg-gradient-to-br from-gray-900 to-gray-800 border border-gray-700 rounded-2xl p-6 hover:border-blue-500/50 transition-all duration-300 hover:shadow-2xl hover:shadow-blue-500/20"
-          >
-            {/* Period Badge */}
-            <div
-              className={`absolute -top-3 -right-3 px-3 py-1 bg-gradient-to-r ${getPeriodColor(
-                item.period
-              )} text-white text-xs font-bold rounded-full`}
+        <div className="relative">
+          {/* Vertical line */}
+          <div className="absolute left-4 md:left-1/2 md:-translate-x-px top-0 bottom-0 w-0.5 bg-white/[0.08]" />
+
+          {scheduleData.map((item, index) => (
+            <motion.div
+              key={item.id}
+              variants={itemVariants}
+              className={`relative flex flex-col md:flex-row items-start mb-8 ${
+                index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
+              }`}
             >
-              {item.period}
-            </div>
+              {/* Timeline dot */}
+              <div className="absolute left-4 md:left-1/2 -translate-x-1/2 z-10">
+                <div className={`w-3 h-3 rounded-full ${getTimelineColor(item.period)} ring-4 ring-[#0a0d1a]`} />
+              </div>
 
-            {/* Background gradient effect */}
-            <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-purple-500/10 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              {/* Card */}
+              <div className={`ml-12 md:ml-0 md:w-[calc(50%-2rem)] ${
+                index % 2 === 0 ? "md:pr-0 md:mr-auto md:pl-0" : "md:pl-0 md:ml-auto md:pr-0"
+              }`}>
+                <div className="rounded-2xl border border-white/[0.1] bg-[#0a0d1a] p-5 hover:border-purple/50 transition-all duration-300">
+                  <div className="flex items-center justify-between mb-3">
+                    <span
+                      className={`px-2.5 py-1 text-xs font-medium rounded-full border ${getStatusColor(
+                        item.status
+                      )}`}
+                    >
+                      {item.status}
+                    </span>
+                    <span className="text-xs text-gray-500">{item.period}</span>
+                  </div>
 
-            <div className="relative z-10">
-              {/* Header */}
-              <div className="flex items-start justify-between mb-4">
-                <div>
-                  <h3 className="text-xl font-bold text-white mb-2 group-hover:text-blue-400 transition-colors duration-300">
+                  <h3 className="text-base font-bold text-white mb-1">
                     {item.title}
                   </h3>
-                  <p className="text-blue-400 font-medium text-lg">
+                  <p className="text-purple text-sm font-medium mb-3">
                     {item.company}
                   </p>
-                </div>
-                <span
-                  className={`px-3 py-1 text-xs font-semibold rounded-full border ${getStatusColor(
-                    item.status
-                  )}`}
-                >
-                  {item.status}
-                </span>
-              </div>
 
-              {/* Details */}
-              <div className="space-y-3 mb-4">
-                <div className="flex items-center text-gray-400 text-sm">
-                  <FaCalendarAlt className="w-4 h-4 mr-2 text-blue-400" />
-                  <span>{item.duration}</span>
-                </div>
+                  <p className="text-gray-400 text-sm leading-relaxed mb-4">
+                    {item.description}
+                  </p>
 
-                <div className="flex items-center text-gray-400 text-sm">
-                  <FaMapMarkerAlt className="w-4 h-4 mr-2 text-blue-400" />
-                  <span>{item.location}</span>
-                </div>
-
-                <div className="flex items-center text-gray-400 text-sm">
-                  <FaClock className="w-4 h-4 mr-2 text-blue-400" />
-                  <span>{item.hours}</span>
+                  <div className="flex flex-wrap gap-x-4 gap-y-1.5 text-xs text-gray-500">
+                    <span className="flex items-center gap-1.5">
+                      <FaCalendarAlt className="text-gray-600" />
+                      {item.duration}
+                    </span>
+                    <span className="flex items-center gap-1.5">
+                      <FaMapMarkerAlt className="text-gray-600" />
+                      {item.location}
+                    </span>
+                    <span className="flex items-center gap-1.5">
+                      <FaClock className="text-gray-600" />
+                      {item.hours}
+                    </span>
+                  </div>
                 </div>
               </div>
-
-              {/* Description */}
-              <p className="text-gray-400 text-sm leading-relaxed mb-4">
-                {item.description}
-              </p>
-
-              {/* Time Allocation Bar */}
-              <div className="w-full bg-gray-700 rounded-full h-2 mb-2">
-                <div
-                  className={`h-2 bg-gradient-to-r ${getPeriodColor(
-                    item.period
-                  )} rounded-full transition-all duration-300`}
-                  style={{
-                    width: item.hours.includes("40+")
-                      ? "100%"
-                      : item.hours.includes("30")
-                      ? "75%"
-                      : item.hours.includes("25")
-                      ? "60%"
-                      : item.hours.includes("15")
-                      ? "40%"
-                      : item.hours.includes("5")
-                      ? "20%"
-                      : "50%",
-                  }}
-                ></div>
-              </div>
-              <p className="text-xs text-gray-500 text-center">{item.hours}</p>
-            </div>
-          </motion.div>
-        ))}
+            </motion.div>
+          ))}
+        </div>
       </motion.div>
 
       {/* Summary Stats */}
@@ -254,24 +229,24 @@ const WorkSchedule = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.3 }}
         viewport={{ once: true }}
-        className="mt-16 text-center"
+        className="mt-16"
       >
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
-          <div className="bg-gradient-to-br from-blue-500/20 to-purple-500/20 border border-blue-500/30 rounded-xl p-6">
-            <div className="text-3xl font-bold text-blue-400 mb-2">6</div>
-            <div className="text-gray-400 text-sm">Active Roles</div>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto px-4">
+          <div className="rounded-xl border border-white/[0.08] bg-[#0a0d1a] p-5 text-center">
+            <div className="text-2xl font-bold text-purple mb-1">5</div>
+            <div className="text-gray-500 text-xs">Companies</div>
           </div>
-          <div className="bg-gradient-to-br from-green-500/20 to-emerald-500/20 border border-green-500/30 rounded-xl p-6">
-            <div className="text-3xl font-bold text-green-400 mb-2">100+</div>
-            <div className="text-gray-400 text-sm">Hours/Week</div>
+          <div className="rounded-xl border border-white/[0.08] bg-[#0a0d1a] p-5 text-center">
+            <div className="text-2xl font-bold text-green-400 mb-1">2+</div>
+            <div className="text-gray-500 text-xs">Years Experience</div>
           </div>
-          <div className="bg-gradient-to-br from-purple-500/20 to-pink-500/20 border border-purple-500/30 rounded-xl p-6">
-            <div className="text-3xl font-bold text-purple-400 mb-2">3+</div>
-            <div className="text-gray-400 text-sm">Years Experience</div>
+          <div className="rounded-xl border border-white/[0.08] bg-[#0a0d1a] p-5 text-center">
+            <div className="text-2xl font-bold text-blue-400 mb-1">2</div>
+            <div className="text-gray-500 text-xs">Active Roles</div>
           </div>
-          <div className="bg-gradient-to-br from-orange-500/20 to-red-500/20 border border-orange-500/30 rounded-xl p-6">
-            <div className="text-3xl font-bold text-orange-400 mb-2">24/7</div>
-            <div className="text-gray-400 text-sm">Availability</div>
+          <div className="rounded-xl border border-white/[0.08] bg-[#0a0d1a] p-5 text-center">
+            <div className="text-2xl font-bold text-orange-400 mb-1">Remote</div>
+            <div className="text-gray-500 text-xs">Work Style</div>
           </div>
         </div>
       </motion.div>
