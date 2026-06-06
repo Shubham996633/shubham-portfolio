@@ -1,12 +1,7 @@
-import {
-  FaLocationArrow,
-  FaDownload,
-  FaGithub,
-  FaLinkedin,
-} from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaUpwork, FaXTwitter } from "react-icons/fa6";
 import { motion } from "framer-motion";
 
-import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 
 const Hero = () => {
@@ -53,9 +48,9 @@ const Hero = () => {
             initial={{ opacity: 1, y: 0 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80 mb-6"
+            className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-2xl mb-6"
           >
-            Full Stack Developer & AI Enthusiast
+            AI Full-Stack Developer · Web · AI/LLM · Automation · DevOps · Cloud
           </motion.p>
 
           <motion.div
@@ -66,9 +61,9 @@ const Hero = () => {
           >
             <div className="text-center text-[40px] md:text-5xl lg:text-6xl font-bold">
               <span className="dark:text-white text-black">
-                Transforming Ideas into Digital{" "}
+                I Build Complete Products,{" "}
               </span>
-              <span className="text-purple">Reality</span>
+              <span className="text-purple">End to End</span>
             </div>
           </motion.div>
 
@@ -79,34 +74,64 @@ const Hero = () => {
             className="text-center md:tracking-wider mb-8 text-sm md:text-lg lg:text-xl text-gray-300 max-w-2xl"
           >
             Hi! I&apos;m{" "}
-            <span className="text-blue-400 font-semibold">Shubham</span>, a
-            passionate Full Stack Developer specializing in Next.js, Node.js,
-            Python, Golang and AI technologies. I craft scalable, interactive
-            solutions that drive business growth and user engagement.
+            <span className="text-blue-400 font-semibold">Shubham</span> — an AI
+            Full-Stack Developer who ships entire products end-to-end: frontend,
+            backend, AI/LLM, DevOps and the business integrations companies
+            actually run on (QuickBooks, Zapier, Zoho, Stripe &amp; more). 2.5+
+            years delivering for startups, agencies and clients worldwide.
           </motion.p>
 
+          {/* Experience Stats */}
+          <motion.div
+            initial={{ opacity: 1, y: 0 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.7 }}
+            className="flex flex-wrap items-center justify-center gap-3 mb-8"
+          >
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/[0.05] border border-white/10 rounded-full text-sm text-gray-200">
+              <span className="text-purple font-bold">2.5+</span> Years Experience
+              <span className="text-gray-500">·</span>
+              <span className="text-gray-400">Since Nov 2023</span>
+            </div>
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/[0.05] border border-white/10 rounded-full text-sm text-gray-200">
+              <span className="text-blue-400 font-bold">10+</span> Clients &amp; Projects Delivered
+            </div>
+            <div className="inline-flex items-center px-4 py-2 bg-green-500/10 border border-green-500/30 rounded-full text-sm font-medium text-green-300">
+              Full-time · Freelance · Contract
+            </div>
+          </motion.div>
+
+          {/* Connect CTAs */}
           <motion.div
             initial={{ opacity: 1, y: 0 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.8 }}
-            className="flex flex-col sm:flex-row gap-4 mb-8"
+            className="flex flex-wrap items-center justify-center gap-4 mb-8"
           >
-            <a href="#contact">
-              <MagicButton
-                title="Let's Connect"
-                icon={<FaLocationArrow />}
-                position="right"
-              />
-            </a>
-
             <a
-              href="/Shubham.pdf"
+              href="mailto:shubhammaurya996633@gmail.com"
+              className="inline-flex items-center justify-center gap-2 px-6 h-11 bg-purple text-black-100 font-semibold rounded-full hover:opacity-90 transition-all duration-300 transform hover:scale-105"
+            >
+              <FaEnvelope className="w-4 h-4" />
+              Email Me
+            </a>
+            <a
+              href="https://www.upwork.com/freelancers/~01bcc7bba082732c9c/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-6  h-10 mt-11 hover:mt-10 bg-transparent border-2 border-blue-500 text-blue-400 font-semibold rounded-lg hover:bg-blue-500 hover:text-white transition-all duration-300"
+              className="inline-flex items-center justify-center gap-2 px-6 h-11 bg-[#14a800] text-white font-semibold rounded-full hover:bg-[#108a00] transition-all duration-300 transform hover:scale-105"
             >
-              <FaDownload className="mr-2" />
-              Download Resume
+              <FaUpwork className="w-4 h-4" />
+              Hire on Upwork
+            </a>
+            <a
+              href="https://www.linkedin.com/in/shubham996633/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 px-6 h-11 bg-[#0a66c2] text-white font-semibold rounded-full hover:bg-[#084e98] transition-all duration-300 transform hover:scale-105"
+            >
+              <FaLinkedin className="w-4 h-4" />
+              LinkedIn
             </a>
           </motion.div>
 
@@ -126,12 +151,12 @@ const Hero = () => {
               <FaGithub className="w-5 h-5 text-white" />
             </a>
             <a
-              href="https://www.linkedin.com/in/shubham996633/"
+              href="https://x.com/Shubham99663333"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-3 bg-blue-600 rounded-full hover:bg-blue-700 transition-all duration-300 transform hover:scale-110"
+              className="p-3 bg-gray-800 rounded-full hover:bg-gray-700 transition-all duration-300 transform hover:scale-110"
             >
-              <FaLinkedin className="w-5 h-5 text-white" />
+              <FaXTwitter className="w-5 h-5 text-white" />
             </a>
           </motion.div>
         </div>

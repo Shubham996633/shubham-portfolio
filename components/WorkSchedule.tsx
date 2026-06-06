@@ -12,29 +12,53 @@ const WorkSchedule = () => {
     {
       id: 1,
       period: "Current",
-      title: "Full-Stack & AI/LLM Backend Engineer (Lead)",
-      company: "CareerCraft360",
-      duration: "Sep 2024 - Present",
-      location: "Remote",
+      title: "AI Full Stack Developer",
+      company: "Xoidlabs",
+      duration: "Jan 2026 - Present",
+      location: "Remote · US & Worldwide",
       description:
-        "Building and maintaining AI-powered career coaching platform with Next.js, FastAPI, GCP. LLM/RAG integration, Stripe payments, real-time WebSocket features.",
+        "Building Directure (AI film-production tool) & Recapi.ai, plus complete client websites, user portals, admin panels, automation and SEO for Trukoder and other US-based & worldwide clients. Integrations: QuickBooks, Intuit, TSheets, Calendly, Zapier.",
       hours: "40+ hours/week",
       status: "Active",
     },
     {
       id: 2,
       period: "Current",
-      title: "Software Developer Engineer Intern",
-      company: "Xoidlabs",
-      duration: "Jan 2026 - Present",
-      location: "Remote",
+      title: "Full Stack & AI Developer",
+      company: "Techbrig.co",
+      duration: "Mar 2026 - Present",
+      location: "Remote · US & Worldwide",
       description:
-        "Full-stack development for Trukoder client project, Zapier automations, and contributing to core product Recapi.ai.",
+        "Internal Techbrig developer — upgraded Axiom Global's recruiting tool, built AI voice-calling automations, and currently building Visneo.ai. All clients US-based & worldwide, working across time zones; contributing to partnership projects and company GitHub repos.",
       hours: "40+ hours/week",
       status: "Active",
     },
     {
+      id: 8,
+      period: "Current",
+      title: "Full-Stack & Mobile App Developer",
+      company: "AgentLabs Agency",
+      duration: "2025 - Present",
+      location: "Remote · US-based agency",
+      description:
+        "Contributing developer at AgentLabs (US-based AI & automation agency). Built & published Google Play apps — FreshSnap (AI fridge tracker) & Old Photo Animator AI — plus web apps, AI automations and the agency portfolio. Remote contributive partnership across time zones.",
+      hours: "Project-based",
+      status: "Active",
+    },
+    {
       id: 3,
+      period: "Recent",
+      title: "Full-Stack & AI/LLM Backend Engineer (Lead)",
+      company: "CareerCraft360",
+      duration: "Sep 2024 - Mar 2026",
+      location: "Remote",
+      description:
+        "Built and maintained AI-powered career coaching platform with Next.js, FastAPI, GCP. LLM/RAG integration, Stripe payments, real-time WebSocket features.",
+      hours: "40+ hours/week",
+      status: "Completed",
+    },
+    {
+      id: 4,
       period: "Recent",
       title: "Full-Stack & Automation Lead",
       company: "ArkaHub",
@@ -46,7 +70,7 @@ const WorkSchedule = () => {
       status: "Completed",
     },
     {
-      id: 4,
+      id: 5,
       period: "Recent",
       title: "Backend & DevOps Engineer Intern",
       company: "GoPool",
@@ -58,7 +82,7 @@ const WorkSchedule = () => {
       status: "Completed",
     },
     {
-      id: 5,
+      id: 6,
       period: "Long-term",
       title: "Full-Stack Developer Intern",
       company: "Monkey Science",
@@ -70,7 +94,7 @@ const WorkSchedule = () => {
       status: "Completed",
     },
     {
-      id: 6,
+      id: 7,
       period: "Academic",
       title: "B.Tech - Computer Science & Engineering",
       company: "Dr. A.P.J. Abdul Kalam Technical University",
@@ -78,8 +102,8 @@ const WorkSchedule = () => {
       location: "Lucknow, India",
       description:
         "SGPA: 7.51. Relevant: Data Structures, Algorithms, DBMS, Operating Systems, Computer Networks, Artificial Intelligence.",
-      hours: "Full-time student",
-      status: "In Progress",
+      hours: "Graduated",
+      status: "Completed",
     },
   ];
 
@@ -233,15 +257,15 @@ const WorkSchedule = () => {
       >
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto px-4">
           <div className="rounded-xl border border-white/[0.08] bg-[#0a0d1a] p-5 text-center">
-            <div className="text-2xl font-bold text-purple mb-1">5</div>
+            <div className="text-2xl font-bold text-purple mb-1">7</div>
             <div className="text-gray-500 text-xs">Companies</div>
           </div>
           <div className="rounded-xl border border-white/[0.08] bg-[#0a0d1a] p-5 text-center">
-            <div className="text-2xl font-bold text-green-400 mb-1">2+</div>
+            <div className="text-2xl font-bold text-green-400 mb-1">2.5+</div>
             <div className="text-gray-500 text-xs">Years Experience</div>
           </div>
           <div className="rounded-xl border border-white/[0.08] bg-[#0a0d1a] p-5 text-center">
-            <div className="text-2xl font-bold text-blue-400 mb-1">2</div>
+            <div className="text-2xl font-bold text-blue-400 mb-1">3</div>
             <div className="text-gray-500 text-xs">Active Roles</div>
           </div>
           <div className="rounded-xl border border-white/[0.08] bg-[#0a0d1a] p-5 text-center">

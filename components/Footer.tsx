@@ -7,6 +7,7 @@ import {
   FaWhatsapp,
   FaTelegram,
 } from "react-icons/fa";
+import { FaUpwork } from "react-icons/fa6";
 import { motion } from "framer-motion";
 
 import { socialMedia } from "@/data";
@@ -73,6 +74,15 @@ const Footer = () => {
                 icon={<FaLocationArrow />}
                 position="right"
               />
+            </a>
+            <a
+              href="https://www.upwork.com/freelancers/~01bcc7bba082732c9c/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 px-6 h-10 mt-10 bg-[#14a800] text-white font-semibold rounded-full hover:bg-[#108a00] transition-all duration-300 transform hover:scale-105"
+            >
+              <FaUpwork className="w-5 h-5" />
+              Hire me on Upwork
             </a>
             <a
               href="/Shubham.pdf"
@@ -162,8 +172,9 @@ const Footer = () => {
             reserved.
           </p>
 
-          <p className="md:text-base text-sm md:font-normal font-light text-gray-400 mt-4 md:mt-0">
-            Built with ❤️ using Next.js & Tailwind CSS
+          <p className="md:text-base text-sm md:font-semibold font-medium text-green-400 mt-4 md:mt-0">
+            🚀 Open worldwide — Full-time · Freelance · Contract. Let&apos;s build
+            something great.
           </p>
         </motion.div>
       </div>

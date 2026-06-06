@@ -6,14 +6,15 @@ export const navItems = [
   { name: "Skills", link: "#skills" },
   { name: "Certifications", link: "#certifications" },
   { name: "Contact", link: "#contact" },
+  { name: "Resume", link: "/Shubham.pdf" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "Building Scalable Solutions with Next.js, Node.js, Python & Golang",
+    title: "I own the full stack — frontend, backend, DevOps & cloud",
     description:
-      "Full-stack development expertise across modern web technologies",
+      "Next.js, Node, Python & Go — I ship complete products end-to-end, not just features.",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
@@ -22,8 +23,8 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "Building RAG Bots & AI Workflow Apps",
-    description: "LLM-powered solutions with advanced AI integration",
+    title: "AI & LLM Engineering — RAG, Agents, MCP & Voice",
+    description: "GPT-4o, Claude & vector DBs baked into real, shipping products.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -32,8 +33,9 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My Tech Stack",
-    description: "Constantly expanding and improving my skills",
+    title: "Business Automation & Industry Integrations",
+    description:
+      "QuickBooks, Intuit, TSheets, Zapier, Zoho, Stripe & Calendly — the tools companies run on.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -42,8 +44,8 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Learning New Libraries & AI Stacks",
-    description: "Always exploring cutting-edge technologies",
+    title: "Always shipping, always learning new stacks",
+    description: "I adapt fast to whatever tools and tech your project needs.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -52,8 +54,8 @@ export const gridItems = [
   },
   {
     id: 5,
-    title: "AI Trading Bot | 75% Win Rate & 0.93 Accuracy",
-    description: "Advanced algorithmic trading with machine learning",
+    title: "From Kubernetes & CI/CD to AI Trading Bots",
+    description: "Comfortable across the whole engineering spectrum — infra to ML.",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -62,8 +64,8 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Let's Connect & Build Something Amazing",
-    description: "Ready for new opportunities and collaborations",
+    title: "Available to hire — full-time, freelance or contract",
+    description: "Companies, agencies & Upwork clients: let's build something that ships.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-center md:max-w-full max-w-60 text-center",
@@ -73,6 +75,22 @@ export const gridItems = [
 ];
 
 export const projects = [
+  {
+    id: 8,
+    title: "FreshSnap — AI Fridge Tracker",
+    des: "Mobile app that scans food labels with AI vision (Gemini) and tracks expiry dates with color-coded freshness alerts. Built and published on the Google Play Store.",
+    keywords: ["React Native", "Flutter", "Supabase", "Gemini Vision", "Google Play"],
+    link: "https://agentlabs.agency/portfolio",
+    category: "Mobile App",
+  },
+  {
+    id: 9,
+    title: "Old Photo Animator AI",
+    des: "Generative-AI app that turns a single static photo into an HD animated video in under 2 minutes, with in-app purchases. Built and published on the Google Play Store.",
+    keywords: ["React Native", "Supabase", "Gemini", "Generative Video AI", "Google Play"],
+    link: "https://agentlabs.agency/portfolio",
+    category: "Mobile App",
+  },
   {
     id: 1,
     title: "Printify MCP Server",
@@ -167,26 +185,46 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
+    title: "AI Full Stack Developer",
+    company: "Xoidlabs",
+    duration: "Jan 2026 - Present",
+    desc: "AI Full Stack Developer at Xoidlabs, shipping the firm's own products and delivering full client builds end-to-end. Working deeply on Directure (a modern AI tool for film production) and contributing to core product Recapi.ai. Delivered 10+ initiatives on Trukoder (trukoder.com) — website, SEO and admin — and built & managed complete websites, user portals, admin panels, automation and SEO for real-estate clients (Eleazar Lua, CV Desert Homes) and cleaning-service clients (First Class, Desert Bloom). Clients are US-based and worldwide, so I collaborate comfortably across US and global time zones. Integrations across QuickBooks, Intuit, TSheets, Calendly, Zapier and modern AI tooling.",
+    className: "md:col-span-2",
+    thumbnail: "/exp2.svg",
+    skills: ["Directure", "AI", "Next.js", "Full Stack", "Automation", "SEO", "QuickBooks", "Zapier", "Calendly"],
+  },
+  {
+    id: 2,
+    title: "Full Stack & AI Developer",
+    company: "Techbrig.co",
+    duration: "Mar 2026 - Present",
+    desc: "Full Stack & AI Developer at Techbrig (techbrig.co), building internal products and partnership projects for the firm. Spent two months upgrading Axiom Global's internal recruiting tool, built AI automation & voice-calling workflows, and currently develop internally on Visneo.ai while contributing to Techbrig's partnership projects. All clients are US-based and worldwide, so I work fluidly across US and international time zones. Actively maintain contributions across both personal and client/company GitHub repositories.",
+    className: "md:col-span-2",
+    thumbnail: "/exp1.svg",
+    skills: ["AI Automation", "Voice AI", "Next.js", "Full Stack", "Recruiting Tech", "GitHub"],
+  },
+  {
+    id: 7,
+    title: "Full-Stack & Mobile App Developer",
+    company: "AgentLabs Agency",
+    duration: "2025 - Present",
+    desc: "Contributing developer at AgentLabs (agentlabs.agency), a US-based AI & automation agency — building and shipping products toward the agency's growing portfolio. Built and published mobile apps on the Google Play Store: FreshSnap (AI fridge & expiry tracker with Gemini vision) and Old Photo Animator AI (generative photo-to-video with in-app purchases). Also contributed to web apps, AI automations and the agency's own portfolio site. US-based owner; remote contributive partnership across time zones.",
+    className: "md:col-span-2",
+    thumbnail: "/exp3.svg",
+    skills: ["React Native", "Flutter", "Supabase", "Gemini", "Google Play", "AI", "Automation"],
+  },
+  {
+    id: 3,
     title: "Full-Stack & AI/LLM Backend Engineer (Lead)",
     company: "CareerCraft360",
-    duration: "Sep 2024 - Present",
+    duration: "Sep 2024 - Mar 2026",
     desc: "Single-handedly built entire AI-powered career coaching platform. Implemented GPT-4o, Claude-3, vector DB for resume analysis and real-time mock interviews. Built Stripe payment system and FastAPI + PostgreSQL + Redis microservices on Google Cloud Run.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
     skills: ["Next.js", "FastAPI", "GCP", "LLM/RAG", "Stripe", "WebSockets"],
   },
   {
-    id: 2,
-    title: "Software Developer Engineer Intern",
-    company: "Xoidlabs",
-    duration: "Jan 2026 - Present",
-    desc: "Developed full-stack website for Trukoder (client project). Built Zapier automation workflows for CRMs and data pipelines. Contributing to core product Recapi.ai on frontend, backend, and API integrations.",
-    className: "md:col-span-2",
-    thumbnail: "/exp2.svg",
-    skills: ["Next.js", "Zapier", "Full Stack", "API Integrations"],
-  },
-  {
-    id: 3,
+    id: 4,
     title: "Full-Stack & Automation Lead",
     company: "ArkaHub",
     duration: "Jun 2025 - Jan 2026",
@@ -196,7 +234,7 @@ export const workExperience = [
     skills: ["Zoho Bigin", "Next.js", "Supabase", "Python", "Docker", "CircleCI"],
   },
   {
-    id: 4,
+    id: 5,
     title: "Backend & DevOps Engineer Intern",
     company: "GoPool",
     duration: "Jun 2025 - Aug 2025",
@@ -206,7 +244,7 @@ export const workExperience = [
     skills: ["Go", "FastAPI", "Azure", "Docker", "CI/CD"],
   },
   {
-    id: 5,
+    id: 6,
     title: "Full-Stack Developer Intern",
     company: "Monkey Science",
     duration: "Nov 2023 - Jun 2025",
@@ -242,6 +280,11 @@ export const socialMedia = [
     id: 5,
     img: "/telegram.svg",
     link: "https://t.me/shubham996633",
+  },
+  {
+    id: 6,
+    img: "/upwork.svg",
+    link: "https://www.upwork.com/freelancers/~01bcc7bba082732c9c/",
   },
 ];
 

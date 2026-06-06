@@ -1,175 +1,125 @@
-# Shubham Maurya - Portfolio 🚀
+# Shubham Maurya — Portfolio 🚀
 
-> **Open to Work** - Freelance / Contract / Full-time Opportunities
+> **🟢 Open to Work** — Full-time · Freelance · Contract
 
-Welcome to my portfolio! I'm a passionate **Software Developer** with expertise in full-stack development, AI integration, and modern web technologies. Currently pursuing my B.Tech in Computer Science while actively working on freelance projects and contributing to innovative solutions.
+I'm an **AI Full Stack Developer** with **2.5+ years of professional experience (since Nov 2023)**, building scalable web platforms, AI-powered products, and automation systems end-to-end. I work across frontend, backend, DevOps, AI/LLM integration, and SEO — for product teams and client projects alike.
 
-## 🎯 Current Status
-
-- **🟢 Available for**: Freelance, Contract, Full-time positions
-- **📍 Location**: Remote / Hybrid
-- **⏰ Current Commitment**: 30+ hours/week on active projects
-- **🎓 Education**: B.Tech Computer Science (2022 - 2026)
-
-## 💼 Professional Experience
-
-### **Software Developer Intern** - Tech Company
-
-_2024 - Present_
-
-- Working on modern web applications and scalable architecture development
-- Utilizing cutting-edge technologies and best practices
-- Contributing to high-quality solution delivery
-
-### **Freelance Developer** - Self-Employed
-
-_2023 - Present_
-
-- **Current**: 30+ hours/week on active projects
-- Specialized in full-stack development, UI/UX design, and custom solutions
-- High client satisfaction with proven delivery track record
-
-### **Previous Experience**
-
-- **Monkey Science**: Extended internship (40+ hours/week)
-- **GoPool**: Software development contributions
-- **Arkahub**: Technical project involvement
-
-## 🛠️ Tech Stack
-
-### **Frontend & UI**
-
-- **Frameworks**: Next.js, React.js, TypeScript
-- **Styling**: Tailwind CSS, Shadcn/UI
-- **Animation**: Framer Motion, GSAP
-- **3D Graphics**: Three.js, WebGL
-
-### **Backend & APIs**
-
-- **Languages**: Node.js, Python, Golang
-- **Databases**: PostgreSQL, MongoDB, Redis
-- **Backend Services**: Convex, Express.js
-- **Authentication**: Clerk.js, Convex Auth
-
-### **AI & Machine Learning**
-
-- **LLM Integration**: RAG Bots, AI Workflow Apps
-- **Trading Systems**: AI Trading Bot (75% Win Rate, 0.93 Accuracy)
-- **AI Stacks**: Advanced AI integration and workflow automation
-
-### **DevOps & Tools**
-
-- **Version Control**: Git, GitHub
-- **Deployment**: Vercel, Docker, Kubernetes
-- **Cloud Platforms**: AWS, Azure
-- **CI/CD**: GitHub Actions, CircleCI, n8n
-
-## 🚀 Featured Projects
-
-### **1. SecretEcho Plugin Generator** 🎵
-
-_AI-powered music plugin generation system_
-
-- **Tech**: AI/ML, LLM Integration, Plugin Architecture
-- **Features**: Automated plugin generation, YouTube demo integration
-- **Demo**: [Watch on YouTube](https://www.youtube.com/watch?v=pgkpgvwFMKg)
-
-### **2. Jo Airplane Game** ✈️
-
-_3D interactive airplane simulation game_
-
-- **Tech**: Three.js, WebGL, GSAP animations
-- **Features**: Immersive 3D experience, smooth controls
-- **Status**: Active development
-
-### **3. Slack Clone** 💬
-
-_Real-time communication platform_
-
-- **Tech**: Next.js, Convex, Tailwind CSS
-- **Features**: Real-time channels, user invites, admin capabilities
-- **Live**: [joslacki.vercel.app](https://joslacki.vercel.app/)
-
-### **4. Notion Clone** 📝
-
-_Full-featured note-taking application_
-
-- **Tech**: Next.js, Clerk.js, Convex
-- **Features**: Nested notes, publishing, real-time collaboration
-- **Live**: [jotion-sand.vercel.app](https://jotion-sand.vercel.app/)
-
-### **5. Car Show 3D** 🚗
-
-_Interactive 3D car showcase_
-
-- **Tech**: Three.js, WebGL, GSAP
-- **Features**: 3D car models, interactive controls, smooth animations
-
-## 🎓 Education & Certifications
-
-### **B.Tech in Computer Science**
-
-_Galgotias College of Engineering | 2022 - 2026_
-
-- Focus: Software Engineering, Algorithms, Modern Web Technologies
-- Strong academic performance with practical project building
-
-### **Professional Certifications**
-
-- **freeCodeCamp**: Web Development Certification
-- **freeCodeCamp**: JavaScript Algorithms & Data Structures
-- **freeCodeCamp**: Front End Development Libraries
-
-## 🌟 Key Skills
-
-### **Core Competencies**
-
-- **Full-Stack Development**: End-to-end web application development
-- **AI Integration**: LLM-powered solutions and AI workflow automation
-- **3D Graphics**: WebGL, Three.js, interactive 3D experiences
-- **Performance Optimization**: Scalable architecture and optimization
-- **Client Management**: Project delivery and stakeholder communication
-
-### **Soft Skills**
-
-- **Problem Solving**: Analytical approach to complex technical challenges
-- **Communication**: Clear technical documentation and client interaction
-- **Time Management**: Efficient project delivery within deadlines
-- **Continuous Learning**: Staying updated with latest technologies
-
-## 📊 Work Schedule & Availability
-
-| Period       | Role                      | Company           | Hours/Week | Status      |
-| ------------ | ------------------------- | ----------------- | ---------- | ----------- |
-| Current      | Freelance Developer       | Self-Employed     | 30+        | **Active**  |
-| 2024-Present | Software Developer Intern | Tech Company      | Variable   | **Active**  |
-| 2022-2026    | B.Tech Student            | Galgotias College | Academic   | **Ongoing** |
-
-## 🔗 Connect With Me
-
-- **📧 Email**: [shubhammaurya996633@gmail.com](mailto:shubhammaurya996633@gmail.com)
-- **💼 LinkedIn**: [Shubham996633](https://linkedin.com/in/shubham996633)
-- **🐙 GitHub**: [Shubhamm996633](https://github.com/shubhamm996633)
-- **🐦 Twitter**: [@Shubham99663333](https://x.com/Shubham99663333)
-- **📱 WhatsApp**: [+91 6393309346](https://wa.me/916393309346)
-- **📲 Telegram**: [@shubham996633](https://t.me/shubham996633)
-
-## 📄 Resume
-
-📥 [Download Resume (PDF)](https://shubham-portfolio-azure.vercel.app/Shubham.pdf)
-
-## 🚀 Let's Build Something Amazing!
-
-I'm always excited to work on new projects, collaborate with innovative teams, and contribute to cutting-edge solutions. Whether you need:
-
-- **🚀 Full-stack web applications**
-- **🤖 AI-powered solutions**
-- **🎮 Interactive 3D experiences**
-- **📱 Modern mobile-responsive designs**
-- **⚡ Performance-optimized systems**
-
-Let's connect and discuss how I can help bring your ideas to life!
+📍 Remote / Hybrid · 💼 Available for full-time, freelance & contract engagements
 
 ---
 
-_Built with ❤️ using Next.js, TypeScript, and Tailwind CSS_
+## 💼 Experience
+
+### AI Full Stack Developer — **Xoidlabs** · _Jan 2026 – Present_
+
+Shipping the firm's own products and delivering full client builds end-to-end.
+
+- Working deeply on **Directure** — a modern AI tool for film production — across frontend, backend, and AI integrations.
+- Contributing to core product **Recapi.ai**.
+- Delivered **10+ initiatives** on **Trukoder** (website, SEO, admin panel).
+- Built & managed complete websites, user portals, admin panels, automation, and SEO for real-estate and cleaning-service clients.
+- Integrations: **QuickBooks, Intuit, TSheets, Calendly, Zapier** + modern AI tooling.
+
+### Full Stack & AI Developer — **Techbrig.co** · _Mar 2026 – Present_
+
+Building internal products and partnership projects for the firm.
+
+- Spent two months upgrading **Axiom Global's** internal recruiting tool.
+- Built **AI automation & voice-calling** workflows.
+- Currently developing internally on **Visneo.ai** while contributing to Techbrig's partnership projects.
+- Active contributions across personal and client/company GitHub repositories.
+
+### Full-Stack & Mobile App Developer — **AgentLabs Agency** · _2025 – Present_
+
+Contributing developer at a US-based AI & automation agency, building toward its growing product portfolio.
+
+- Built & **published mobile apps on the Google Play Store**: **FreshSnap** (AI fridge & expiry tracker, Gemini vision) and **Old Photo Animator AI** (generative photo-to-video with in-app purchases).
+- Contributed to web apps, AI automations, and the agency's portfolio site.
+- Remote contributive partnership across time zones.
+
+### Full-Stack & AI/LLM Backend Engineer (Lead) — **CareerCraft360** · _Sep 2024 – Mar 2026_
+
+- Single-handedly built an AI-powered career-coaching platform.
+- Implemented GPT-4o, Claude-3, and a vector DB for resume analysis and real-time mock interviews.
+- Built Stripe payments and FastAPI + PostgreSQL + Redis microservices on Google Cloud Run.
+
+### Full-Stack & Automation Lead — **ArkaHub** · _Jun 2025 – Jan 2026_
+
+- Built a complete Zoho Bigin & Analytics lead-automation pipeline.
+- Developed a responsive portal with Next.js + Supabase.
+- Engineered a Python-based real-time roof-extraction system; configured CircleCI + Docker + Vercel/AWS pipelines.
+
+### Backend & DevOps Engineer Intern — **GoPool** · _Jun 2025 – Aug 2025_
+
+- Built scalable GoLang services with FastAPI WebSocket for real-time AI gym analytics.
+- Orchestrated zero-downtime deployments on Azure using Docker + CircleCI.
+
+### Full-Stack Developer Intern — **Monkey Science** · _Nov 2023 – Jun 2025_
+
+- Designed 8 scalable FastAPI microservices with Zoho Books invoicing automation.
+- Built a centralized admin dashboard, improving backend efficiency by 30%.
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend** — Next.js, React, TypeScript, Tailwind CSS, Shadcn/UI, Framer Motion
+**Backend** — Node.js, Python (FastAPI), Golang, Express.js
+**Databases** — PostgreSQL, MongoDB, Redis, Supabase
+**AI / LLM** — RAG, GPT-4o, Claude, vector DBs, AI voice/automation, MCP servers
+**DevOps & Cloud** — Docker, Kubernetes, GCP, Azure, AWS, CircleCI, GitHub Actions, Vercel
+**Automation & Integrations** — n8n, Zapier, QuickBooks, Intuit, TSheets, Calendly, Zoho
+
+---
+
+## 🚀 Featured Projects
+
+| Project | What it is | Stack |
+| ------- | ---------- | ----- |
+| **FreshSnap — AI Fridge Tracker** | Mobile app scanning food labels with AI vision and tracking expiry with color-coded alerts — **published on Google Play** | React Native, Flutter, Supabase, Gemini Vision |
+| **Old Photo Animator AI** | Generative-AI app turning a static photo into an HD animated video in under 2 min, with in-app purchases — **published on Google Play** | React Native, Supabase, Gemini, Generative Video AI |
+| **Printify MCP Server** | MCP server exposing 59 tools for the full Printify API — product CRUD, orders, AI design gen (Gemini + Replicate), Etsy keyword research, webhooks | MCP, Claude, TypeScript |
+| **SecretEcho Plugin Generator** | AI platform generating custom WooCommerce plugins via chat — real-time WebSocket streaming, Monaco editor, credits, admin panel | Next.js, WebSocket, AI Code Gen, MongoDB, Redis |
+| **Kuber WebStore** | Kubernetes-native platform auto-provisioning isolated WooCommerce stores with namespace-per-store RBAC, NetworkPolicies, Helm charts | Kubernetes, Helm, Docker, Multi-Tenant |
+| **Trading Bot** | Full-stack gold-trading system — live trading, backtesting, simulation, sentiment analysis (Gemini), Kelly-Criterion sizing | Python, FastAPI, ML, Supabase, Azure |
+| **CRM Chrome Extension** | Extracts contacts, deals & tasks from ActiveCampaign with real-time sync, search/filter, CSV/JSON export | Chrome Extension, TypeScript |
+| **n8n Automation Workflows** | 7 ready-to-use templates: invoice generator, social auto-posters, WhatsApp AI responder, uptime monitor, lead capture | n8n, Automation, AI |
+| **IndiaExplorer** | Travel-booking platform with Razorpay payments, Resend emails, loyalty rewards, cart/wishlist, admin dashboard | Next.js, Razorpay, Supabase |
+
+---
+
+## 🎓 Education & Certifications
+
+**B.Tech, Computer Science & Engineering** — Dr. A.P.J. Abdul Kalam Technical University · _Nov 2022 – Jun 2026_ · SGPA 7.51
+
+**freeCodeCamp Certifications** — Responsive Web Design · JavaScript Algorithms & Data Structures · Front End Development Libraries · Data Analysis with Python
+
+---
+
+## 🔗 Connect With Me
+
+- 📧 **Email**: [shubhammaurya996633@gmail.com](mailto:shubhammaurya996633@gmail.com)
+- 💚 **Upwork**: [Hire me on Upwork](https://www.upwork.com/freelancers/~01bcc7bba082732c9c/)
+- 💼 **LinkedIn**: [shubham996633](https://www.linkedin.com/in/shubham996633/)
+- 🐙 **GitHub**: [shubham996633](https://github.com/shubham996633)
+- 🐦 **X/Twitter**: [@Shubham99663333](https://x.com/Shubham99663333)
+- 📱 **WhatsApp**: [+91 6393309346](https://wa.me/916393309346)
+- 📲 **Telegram**: [@shubham996633](https://t.me/shubham996633)
+
+📄 **Resume**: [Download (PDF)](./Shubham.pdf)
+
+---
+
+## 🧑‍💻 About This Site
+
+Built with **Next.js 15**, **TypeScript**, and **Tailwind CSS** — animated with Framer Motion, dark-first design.
+
+```bash
+npm install      # install dependencies
+npm run dev      # start dev server on http://localhost:3000
+npm run build    # production build
+```
+
+---
+
+_Let's build something amazing together — I'm available for full-time roles, freelance projects, and contract work._

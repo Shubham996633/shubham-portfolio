@@ -9,7 +9,8 @@ const skills = {
   "Frontend & Mobile": ["Next.js", "React", "Tailwind CSS", "Three.js", "React-Three-Fiber", "Flutter"],
   "Databases & Cloud": ["PostgreSQL", "MongoDB", "Supabase", "Redis", "Pinecone", "SQLite", "GCP", "AWS", "Azure", "Vercel"],
   "DevOps & Infra": ["Docker", "Kubernetes", "Helm", "k3d/k3s", "Traefik", "GitHub Actions", "CircleCI", "Nginx"],
-  "Tools & Platforms": ["Zoho Bigin", "Zoho Analytics", "n8n", "Stripe", "Razorpay", "Zapier"],
+  "Automation & Integrations": ["QuickBooks", "Intuit", "TSheets", "Calendly", "Stripe", "Razorpay", "Twilio", "Zapier", "n8n", "Zoho Bigin", "Zoho Books", "Zoho Analytics", "ActiveCampaign"],
+  "Tools & Platforms": ["Git", "GitHub", "Postman", "Figma", "Jira", "Notion", "SEO"],
 };
 
 const categoryColors: Record<string, { bg: string; text: string; border: string }> = {
@@ -19,7 +20,8 @@ const categoryColors: Record<string, { bg: string; text: string; border: string 
   "Frontend & Mobile": { bg: "bg-blue-500/10", text: "text-blue-300", border: "border-blue-500/20" },
   "Databases & Cloud": { bg: "bg-red-500/10", text: "text-red-300", border: "border-red-500/20" },
   "DevOps & Infra": { bg: "bg-cyan-500/10", text: "text-cyan-300", border: "border-cyan-500/20" },
-  "Tools & Platforms": { bg: "bg-orange-500/10", text: "text-orange-300", border: "border-orange-500/20" },
+  "Automation & Integrations": { bg: "bg-orange-500/10", text: "text-orange-300", border: "border-orange-500/20" },
+  "Tools & Platforms": { bg: "bg-pink-500/10", text: "text-pink-300", border: "border-pink-500/20" },
 };
 
 const SkillSet = () => {
@@ -36,7 +38,8 @@ const SkillSet = () => {
           My <span className="text-purple">Skills & Expertise</span>
         </h1>
         <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
-          A comprehensive overview of my technical skills across various domains.
+          Full-stack, AI, DevOps and the business tools companies actually run
+          on — end-to-end, across every layer of the product.
         </p>
       </motion.div>
 
