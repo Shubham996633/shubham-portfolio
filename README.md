@@ -10,24 +10,24 @@ I'm an **AI Full Stack Developer** with **2.5+ years of professional experience 
 
 ## 💼 Experience
 
-### AI Full Stack Developer — **Xoidlabs** · _Jan 2026 – Present_
+### Full Stack & AI Developer — **Techbrig.co** · _Mar 2026 – Present_ 🟢 Current
 
-Shipping the firm's own products and delivering full client builds end-to-end.
-
-- Working deeply on **Directure** — a modern AI tool for film production — across frontend, backend, and AI integrations.
-- Contributing to core product **Recapi.ai**.
-- Delivered **10+ initiatives** on **Trukoder** (website, SEO, admin panel).
-- Built & managed complete websites, user portals, admin panels, automation, and SEO for real-estate and cleaning-service clients.
-- Integrations: **QuickBooks, Intuit, TSheets, Calendly, Zapier** + modern AI tooling.
-
-### Full Stack & AI Developer — **Techbrig.co** · _Mar 2026 – Present_
-
-Building internal products and partnership projects for the firm.
+Primary current role — building internal products and partnership projects for the firm.
 
 - Spent two months upgrading **Axiom Global's** internal recruiting tool.
 - Built **AI automation & voice-calling** workflows.
 - Currently developing internally on **Visneo.ai** while contributing to Techbrig's partnership projects.
 - Active contributions across personal and client/company GitHub repositories.
+
+### AI Full Stack Developer — **Xoidlabs** · _Jan 2026 – Jun 2026_ ⏸️ Paused
+
+Shipped the firm's own products and delivered full client builds end-to-end.
+
+- Worked deeply on **Directure** — a modern AI tool for film production — across frontend, backend, and AI integrations.
+- Contributed to core product **Recapi.ai**.
+- Delivered **10+ initiatives** on **Trukoder** (website, SEO, admin panel).
+- Built & managed complete websites, user portals, admin panels, automation, and SEO for real-estate and cleaning-service clients.
+- Integrations: **QuickBooks, Intuit, TSheets, Calendly, Zapier** + modern AI tooling.
 
 ### Full-Stack & Mobile App Developer — **AgentLabs Agency** · _2025 – Present_
 

@@ -184,24 +184,24 @@ export const companies = [
 
 export const workExperience = [
   {
-    id: 1,
-    title: "AI Full Stack Developer",
-    company: "Xoidlabs",
-    duration: "Jan 2026 - Present",
-    desc: "AI Full Stack Developer at Xoidlabs, shipping the firm's own products and delivering full client builds end-to-end. Working deeply on Directure (a modern AI tool for film production) and contributing to core product Recapi.ai. Delivered 10+ initiatives on Trukoder (trukoder.com) — website, SEO and admin — and built & managed complete websites, user portals, admin panels, automation and SEO for real-estate clients (Eleazar Lua, CV Desert Homes) and cleaning-service clients (First Class, Desert Bloom). Clients are US-based and worldwide, so I collaborate comfortably across US and global time zones. Integrations across QuickBooks, Intuit, TSheets, Calendly, Zapier and modern AI tooling.",
-    className: "md:col-span-2",
-    thumbnail: "/exp2.svg",
-    skills: ["Directure", "AI", "Next.js", "Full Stack", "Automation", "SEO", "QuickBooks", "Zapier", "Calendly"],
-  },
-  {
     id: 2,
     title: "Full Stack & AI Developer",
     company: "Techbrig.co",
-    duration: "Mar 2026 - Present",
-    desc: "Full Stack & AI Developer at Techbrig (techbrig.co), building internal products and partnership projects for the firm. Spent two months upgrading Axiom Global's internal recruiting tool, built AI automation & voice-calling workflows, and currently develop internally on Visneo.ai while contributing to Techbrig's partnership projects. All clients are US-based and worldwide, so I work fluidly across US and international time zones. Actively maintain contributions across both personal and client/company GitHub repositories.",
+    duration: "Mar 2026 - Present (Current)",
+    desc: "Current primary role — Full Stack & AI Developer at Techbrig (techbrig.co), building internal products and partnership projects for the firm. Spent two months upgrading Axiom Global's internal recruiting tool, built AI automation & voice-calling workflows, and currently develop internally on Visneo.ai while contributing to Techbrig's partnership projects. All clients are US-based and worldwide, so I work fluidly across US and international time zones. Actively maintain contributions across both personal and client/company GitHub repositories.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
     skills: ["AI Automation", "Voice AI", "Next.js", "Full Stack", "Recruiting Tech", "GitHub"],
+  },
+  {
+    id: 1,
+    title: "AI Full Stack Developer",
+    company: "Xoidlabs",
+    duration: "Jan 2026 - Jun 2026 (Paused)",
+    desc: "AI Full Stack Developer at Xoidlabs (engagement paused since Jun 2026), where I shipped the firm's own products and delivered full client builds end-to-end. Worked deeply on Directure (a modern AI tool for film production) and contributed to core product Recapi.ai. Delivered 10+ initiatives on Trukoder (trukoder.com) — website, SEO and admin — and built & managed complete websites, user portals, admin panels, automation and SEO for real-estate clients (Eleazar Lua, CV Desert Homes) and cleaning-service clients (First Class, Desert Bloom). Clients were US-based and worldwide, so I collaborated comfortably across US and global time zones. Integrations across QuickBooks, Intuit, TSheets, Calendly, Zapier and modern AI tooling.",
+    className: "md:col-span-2",
+    thumbnail: "/exp2.svg",
+    skills: ["Directure", "AI", "Next.js", "Full Stack", "Automation", "SEO", "QuickBooks", "Zapier", "Calendly"],
   },
   {
     id: 7,

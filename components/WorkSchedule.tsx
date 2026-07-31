@@ -10,18 +10,6 @@ import {
 const WorkSchedule = () => {
   const scheduleData = [
     {
-      id: 1,
-      period: "Current",
-      title: "AI Full Stack Developer",
-      company: "Xoidlabs",
-      duration: "Jan 2026 - Present",
-      location: "Remote · US & Worldwide",
-      description:
-        "Building Directure (AI film-production tool) & Recapi.ai, plus complete client websites, user portals, admin panels, automation and SEO for Trukoder and other US-based & worldwide clients. Integrations: QuickBooks, Intuit, TSheets, Calendly, Zapier.",
-      hours: "40+ hours/week",
-      status: "Active",
-    },
-    {
       id: 2,
       period: "Current",
       title: "Full Stack & AI Developer",
@@ -29,9 +17,21 @@ const WorkSchedule = () => {
       duration: "Mar 2026 - Present",
       location: "Remote · US & Worldwide",
       description:
-        "Internal Techbrig developer — upgraded Axiom Global's recruiting tool, built AI voice-calling automations, and currently building Visneo.ai. All clients US-based & worldwide, working across time zones; contributing to partnership projects and company GitHub repos.",
+        "Primary current role — internal Techbrig developer. Upgraded Axiom Global's recruiting tool, built AI voice-calling automations, and currently building Visneo.ai. All clients US-based & worldwide, working across time zones; contributing to partnership projects and company GitHub repos.",
       hours: "40+ hours/week",
       status: "Active",
+    },
+    {
+      id: 1,
+      period: "Paused",
+      title: "AI Full Stack Developer",
+      company: "Xoidlabs",
+      duration: "Jan 2026 - Jun 2026",
+      location: "Remote · US & Worldwide",
+      description:
+        "Engagement paused since Jun 2026. Built Directure (AI film-production tool) & Recapi.ai, plus complete client websites, user portals, admin panels, automation and SEO for Trukoder and other US-based & worldwide clients. Integrations: QuickBooks, Intuit, TSheets, Calendly, Zapier.",
+      hours: "Paused",
+      status: "Paused",
     },
     {
       id: 8,
@@ -137,6 +137,8 @@ const WorkSchedule = () => {
         return "bg-blue-500/20 text-blue-400 border-blue-500/30";
       case "In Progress":
         return "bg-yellow-500/20 text-yellow-400 border-yellow-500/30";
+      case "Paused":
+        return "bg-amber-500/20 text-amber-400 border-amber-500/30";
       default:
         return "bg-gray-500/20 text-gray-400 border-gray-500/30";
     }
@@ -146,6 +148,8 @@ const WorkSchedule = () => {
     switch (period) {
       case "Current":
         return "bg-green-500";
+      case "Paused":
+        return "bg-amber-500";
       case "Recent":
         return "bg-blue-500";
       case "Long-term":
