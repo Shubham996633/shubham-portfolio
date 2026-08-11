@@ -14,28 +14,32 @@ I'm an **AI Full Stack Developer** with **2.5+ years of professional experience 
 
 Primary current role — building internal products and partnership projects for the firm.
 
-- Spent two months upgrading **Axiom Global's** internal recruiting tool.
-- Built **AI automation & voice-calling** workflows.
-- Currently developing internally on **Visneo.ai** while contributing to Techbrig's partnership projects.
+- Core contributor on **Visneo.ai**, an AI-agent platform for independent grocery operators — the **Operations agent** (demand forecasting, inventory, markdown timing, weekly briefings) and the **Finance & Compliance agent** (automated bookkeeping and reconciliation).
+- Led a **two-month upgrade** of **Axiom Global's** internal recruiting platform, modernizing the stack and streamlining recruiter workflows.
+- Built **AI voice-calling & automation pipelines** wiring LLMs into telephony and CRM systems.
 - Active contributions across personal and client/company GitHub repositories.
+
+### Full-Stack & Mobile App Developer — **AgentLabs Agency** · _2025 – Present_ 🟢 Current
+
+Contributing developer at a US-based AI & automation agency — shipping its own products and delivering client builds.
+
+- **Published 3 apps to both the Apple App Store and Google Play**, owning the full release process: signing & provisioning, App Store Connect submission, privacy nutrition labels, review compliance, and staged rollouts.
+  - **[FreshSnap AI](https://apps.apple.com/us/app/freshsnap-ai/id6781271058)** ([Play](https://play.google.com/store/apps/details?id=com.freshsnap.app)) — AI vision logs food from pantries, receipts, and barcodes; expiry tracking, diet-aware recipe generation, guided cook mode, aisle-sorted shopping lists.
+  - **[Old Photo Animator AI](https://apps.apple.com/us/app/old-photo-animator-ai/id6787607769)** ([Play](https://play.google.com/store/apps/details?id=com.oldphotoanimator.ai)) — restore, colorize, and animate old photos into HD video; credit-based in-app purchases.
+  - **[Career Craft](https://play.google.com/store/apps/details?id=com.careercraft.app)** — AI mock interviews and job discovery.
+- Built the **agency website with an automated SEO blog-posting pipeline**.
+- Delivered client web projects including a **RAG chatbot** grounded in **PDF documents and QuickBooks XML exports**.
+- Remote contributive partnership across time zones.
 
 ### AI Full Stack Developer — **Xoidlabs** · _Jan 2026 – Jun 2026_ ⏸️ Paused
 
 Shipped the firm's own products and delivered full client builds end-to-end.
 
-- Worked deeply on **Directure** — a modern AI tool for film production — across frontend, backend, and AI integrations.
-- Contributed to core product **Recapi.ai**.
+- Built core modules for **[Directure](https://directureai.com/)** — an AI-powered film-production platform — including the **invoicing & budget-tracking layer** and the **scripting/screenplay breakdown module** that parses a screenplay into tagged production elements.
+- Shipped features on **Recapi.ai** (AI agents for sales & customer success), improving response latency by **20%**.
 - Delivered **10+ initiatives** on **Trukoder** (website, SEO, admin panel).
 - Built & managed complete websites, user portals, admin panels, automation, and SEO for real-estate and cleaning-service clients.
 - Integrations: **QuickBooks, Intuit, TSheets, Calendly, Zapier** + modern AI tooling.
-
-### Full-Stack & Mobile App Developer — **AgentLabs Agency** · _2025 – Present_
-
-Contributing developer at a US-based AI & automation agency, building toward its growing product portfolio.
-
-- Built & **published mobile apps on the Google Play Store**: **FreshSnap** (AI fridge & expiry tracker, Gemini vision) and **Old Photo Animator AI** (generative photo-to-video with in-app purchases).
-- Contributed to web apps, AI automations, and the agency's portfolio site.
-- Remote contributive partnership across time zones.
 
 ### Full-Stack & AI/LLM Backend Engineer (Lead) — **CareerCraft360** · _Sep 2024 – Mar 2026_
 
@@ -63,12 +67,14 @@ Contributing developer at a US-based AI & automation agency, building toward its
 
 ## 🛠️ Tech Stack
 
-**Frontend** — Next.js, React, TypeScript, Tailwind CSS, Shadcn/UI, Framer Motion
-**Backend** — Node.js, Python (FastAPI), Golang, Express.js
-**Databases** — PostgreSQL, MongoDB, Redis, Supabase
-**AI / LLM** — RAG, GPT-4o, Claude, vector DBs, AI voice/automation, MCP servers
-**DevOps & Cloud** — Docker, Kubernetes, GCP, Azure, AWS, CircleCI, GitHub Actions, Vercel
-**Automation & Integrations** — n8n, Zapier, QuickBooks, Intuit, TSheets, Calendly, Zoho
+**Languages** — Python, Go, JavaScript, TypeScript, Dart, SQL
+**Frontend** — Next.js, React, TypeScript, Tailwind CSS, Shadcn/UI, Framer Motion, Three.js
+**Backend** — FastAPI, Node.js, Golang, Express.js, microservices, WebSockets, GraphQL
+**AI / LLM** — Generative AI, OpenAI, Claude, Gemini, LangChain, RAG, vector DBs, AI agents & multi-agent systems, MCP servers, AI voice agents
+**Mobile & App Publishing** — React Native, Expo, Flutter, App Store Connect, Google Play Console, TestFlight, in-app purchases, store review & compliance
+**Databases** — PostgreSQL, MongoDB, Redis, Supabase, Pinecone
+**DevOps & Cloud** — Docker, Kubernetes, Helm, k3s, GCP, Azure, AWS, Vercel, CircleCI, GitHub Actions, Nginx
+**Automation & Integrations** — n8n, Zapier, Make, Stripe, Razorpay, QuickBooks, Intuit, TSheets, Calendly, Zoho Bigin, Zoho Analytics
 
 ---
 

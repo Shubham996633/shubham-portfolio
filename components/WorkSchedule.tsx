@@ -17,8 +17,20 @@ const WorkSchedule = () => {
       duration: "Mar 2026 - Present",
       location: "Remote · US & Worldwide",
       description:
-        "Primary current role — internal Techbrig developer. Upgraded Axiom Global's recruiting tool, built AI voice-calling automations, and currently building Visneo.ai. All clients US-based & worldwide, working across time zones; contributing to partnership projects and company GitHub repos.",
+        "Primary current role — internal Techbrig developer. Core contributor on Visneo.ai (AI agents for grocery operations — forecasting, inventory, automated bookkeeping), led a two-month upgrade of Axiom Global's recruiting platform, and built AI voice-calling pipelines wiring LLMs into telephony and CRM. Contributing to partnership projects and company GitHub repos across US & worldwide time zones.",
       hours: "40+ hours/week",
+      status: "Active",
+    },
+    {
+      id: 8,
+      period: "Current",
+      title: "Full-Stack & Mobile App Developer",
+      company: "AgentLabs Agency",
+      duration: "2025 - Present",
+      location: "Remote · US-based agency",
+      description:
+        "Published 3 apps to the Apple App Store & Google Play end-to-end — FreshSnap AI (pantry scanning & recipe AI), Old Photo Animator AI (restore/colorize/animate with IAP credits) and Career Craft (AI interview prep) — owning signing, App Store Connect review and staged rollouts with React Native, Expo & Flutter. Also built the agency site with an automated SEO blog engine and a QuickBooks XML + PDF RAG chatbot for client delivery.",
+      hours: "Project-based",
       status: "Active",
     },
     {
@@ -29,21 +41,9 @@ const WorkSchedule = () => {
       duration: "Jan 2026 - Jun 2026",
       location: "Remote · US & Worldwide",
       description:
-        "Engagement paused since Jun 2026. Built Directure (AI film-production tool) & Recapi.ai, plus complete client websites, user portals, admin panels, automation and SEO for Trukoder and other US-based & worldwide clients. Integrations: QuickBooks, Intuit, TSheets, Calendly, Zapier.",
+        "Engagement paused since Jun 2026. Built core modules for Directure (AI film-production platform) — invoicing/budget tracking and screenplay breakdown — and shipped features on Recapi.ai, cutting response latency 20%. Delivered 10+ initiatives on Trukoder plus client sites, portals and admin panels. Integrations: QuickBooks, Intuit, TSheets, Calendly, Zapier.",
       hours: "Paused",
       status: "Paused",
-    },
-    {
-      id: 8,
-      period: "Current",
-      title: "Full-Stack & Mobile App Developer",
-      company: "AgentLabs Agency",
-      duration: "2025 - Present",
-      location: "Remote · US-based agency",
-      description:
-        "Contributing developer at AgentLabs (US-based AI & automation agency). Built & published Google Play apps — FreshSnap (AI fridge tracker) & Old Photo Animator AI — plus web apps, AI automations and the agency portfolio. Remote contributive partnership across time zones.",
-      hours: "Project-based",
-      status: "Active",
     },
     {
       id: 3,

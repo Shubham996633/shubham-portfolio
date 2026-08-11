@@ -1,0 +1,220 @@
+\documentclass[a4paper,20pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2 \\
+    \textit{#3} & \textit{#4} \\
+  \end{tabular*}\vspace{-5pt}
+}
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+\renewcommand{\labelitemii}{$\circ$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Shubham Maurya}} & Email: \href{mailto:shubhammaurya996633@gmail.com}{shubhammaurya996633@gmail.com} \\
+  & Mobile: +91 6393309346 \\
+  \href{https://github.com/Shubham996633}{Github: github.com/Shubham996633} &
+  \href{https://shubham-portfolio-azure.vercel.app/}{Portfolio} \\
+  \href{https://www.linkedin.com/in/shubham996633/}{LinkedIn: shubham996633} \\
+\end{tabular*}
+
+%-----------SUMMARY-----------------
+\section{Summary}
+\vspace{2pt}
+{\small AI Full-Stack Engineer with 2.5+ years building production AI products end-to-end --- LLM/RAG systems, AI agents and voice automation, FastAPI/Next.js platforms, and cross-platform mobile apps published to both the Apple App Store and Google Play. Experienced across the full delivery lifecycle: architecture, backend microservices, frontend, DevOps/CI-CD, third-party integrations (QuickBooks, Stripe, Zoho, Zapier) and mobile store release \& compliance. Works remotely with US-based and international clients across time zones.}
+\vspace{-4pt}
+
+%-----------EDUCATION-----------------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Dr. A.P.J. Abdul Kalam Technical University}{Lucknow, India}
+    {B.Tech - Computer Science and Engineering | SGPA: 7.51}{Nov 2022 -- Jun 2026}
+    {\scriptsize \textit{\footnotesize{\newline{}\newline{}\textbf{Relevant Coursework:} Data Structures, Algorithms, DBMS, Operating Systems, Computer Networks, Artificial Intelligence}}}
+\resumeSubHeadingListEnd
+\vspace{-8pt}
+
+%-----------SKILLS-----------------
+\section{Skills}
+\resumeSubHeadingListStart
+  \resumeSubItem{Languages}{Python • Go • JavaScript • TypeScript • Dart • SQL • NoSQL}
+  \resumeSubItem{AI \& LLM Stack}{Generative AI • OpenAI • Claude • Gemini • LangChain • RAG Architecture • Vector Databases • Embeddings • Prompt Engineering • AI Agents • Multi-Agent Systems • Voice AI • MCP}
+  \resumeSubItem{Backend \& APIs}{FastAPI • Node.js • Go • Microservices • WebSockets • RESTful APIs • GraphQL • Celery • Webhooks}
+  \resumeSubItem{Frontend}{Next.js • React • TypeScript • Tailwind CSS • Three.js • React-Three-Fiber • Framer Motion}
+  \resumeSubItem{Mobile \& App Publishing}{React Native • Expo • Flutter • App Store Connect • Google Play Console • TestFlight • EAS Build • In-App Purchases • Push Notifications • Store Review \& Privacy Compliance}
+  \resumeSubItem{Databases \& Cloud}{PostgreSQL • MongoDB • Supabase • Redis • Pinecone • GCP • AWS • Azure • Vercel}
+  \resumeSubItem{DevOps \& Infrastructure}{Docker • Kubernetes • Helm • k3s • CI/CD • GitHub Actions • CircleCI • Nginx}
+  \resumeSubItem{Integrations \& Platforms}{Stripe • Razorpay • QuickBooks • Intuit • TSheets • Zoho Bigin • Zoho Analytics • Calendly • n8n • Make • Zapier}
+\resumeSubHeadingListEnd
+\vspace{-8pt}
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {Techbrig}{Remote}
+    {Full-Stack \& AI Developer}{Mar 2026 -- Present}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Scope}
+      {Build the firm's internal AI products and partnership client projects end-to-end --- core contributor on \textit{Visneo.ai} (AI agent platform) and led a two-month upgrade of \textit{Axiom Global's} recruiting platform}
+    \resumeSubItem{Focus}
+      {LLM agent systems, AI voice-calling automation, and telephony/CRM integrations on a Next.js + FastAPI stack}
+    \resumeSubItem{Delivery}
+      {Work with US-based and international clients across time zones, contributing actively to company repositories}
+  \resumeSubHeadingListEnd
+  \vspace{2pt}
+
+  \resumeSubheading
+    {AgentLabs}{Remote, US Agency}
+    {Full-Stack \& Mobile App Developer}{2025 -- Present}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Mobile}
+      {Published 3 production apps to both the Apple App Store and Google Play --- \textit{FreshSnap AI}, \textit{Old Photo Animator AI} and \textit{Career Craft} --- owning the full release process: code signing \& provisioning, App Store Connect submission, privacy nutrition labels, data-safety declarations, review remediation and staged rollouts, with React Native, Expo and Flutter}
+    \resumeSubItem{AI \& Web}
+      {Deliver client AI products and websites --- RAG assistants over business documents, Stripe credit billing, and n8n/Zapier automation --- plus the agency site and its automated SEO blog engine}
+    \resumeSubItem{Engagement}
+      {Remote contributive partnership with a US-based AI \& automation agency, shipping toward its product portfolio}
+  \resumeSubHeadingListEnd
+  \vspace{2pt}
+
+  \resumeSubheading
+    {Xoidlabs \href{https://www.linkedin.com/in/shubham996633/overlay/Position/2940254151/treasury/?profileId=ACoAAD9AANcBI0cT4PH9Iwml9GpQeX9pKxOGqqQ}{(Experience Letter)}}{Remote}
+    {AI Software Engineer}{Jan 2026 -- Jun 2026}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Products}
+      {Built core modules for \textit{Directure}, an AI film-production platform, and shipped features on \textit{Recapi.ai}, cutting response latency by 20\%}
+    \resumeSubItem{Client Delivery}
+      {Directed end-to-end delivery of the \textit{Trukoder} platform plus websites, portals and admin panels for real-estate and cleaning-service clients; orchestrated 10+ automation workflows across CRMs and marketing platforms, reducing manual effort by 40\%, integrating QuickBooks, Intuit, TSheets, Calendly and Zapier}
+    \resumeSubItem{Real-time AI Systems}
+      {Architected Go + FastAPI microservices handling real-time AI analytics via WebSockets, deployed on Azure with Docker and CircleCI}
+  \resumeSubHeadingListEnd
+  \vspace{2pt}
+
+  \resumeSubheading
+    {ArkaHub \href{https://drive.google.com/file/d/1h5-ib4JUMhwSV7AL6kiYRcWSV32-Nazl/view?usp=sharing}{(Internship Experience Letter)}}{Remote}
+    {Full-Stack \& Automation Lead}{Jun 2025 -- Jan 2026}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Automation \& Platform}
+      {Spearheaded a Zoho pipeline integrating 3+ systems (Sheets, Bigin, Analytics), reducing manual processing by 50\%, and delivered a Next.js portal increasing engagement by 25\%}
+    \resumeSubItem{Engineering}
+      {Engineered a Python-based roof extraction system for monthly solar designs and integrated Stripe billing with real-time AI pipelines on FastAPI + GCP}
+    \resumeSubItem{DevOps \& CI/CD}
+      {Established CI/CD pipelines across AWS and Vercel, reducing deployment time by 35\%}
+  \resumeSubHeadingListEnd
+  \vspace{2pt}
+
+  \resumeSubheading
+    {Monkey Science \href{https://drive.google.com/file/d/1vuofq5nAO5H92RrahIHXvKWga7-DbHsH/view?usp=sharing}{(Internship Experience Letter)}}{Remote, Bangalore}
+    {Full-Stack Developer Intern}{Nov 2023 -- Jun 2025}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Microservices Architecture}
+      {Architected 8 FastAPI microservices automating invoicing workflows via Zoho Books}
+    \resumeSubItem{Admin Dashboard}
+      {Built centralized admin panel improving backend efficiency by 30\%}
+  \resumeSubHeadingListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\vspace{-5pt}
+\section{Projects}
+\resumeSubHeadingListStart
+
+\resumeSubItem{Visneo.ai --- AI Agents for Grocery Operations \textit{(Techbrig)}}
+  {AI-agent platform replacing operational tooling for independent grocery operators. Built the Operations agent covering demand forecasting, inventory levels, markdown timing and an automated weekly briefing, and the Finance \& Compliance agent automating bookkeeping and reconciliation. Stack: Next.js, FastAPI, PostgreSQL, LLM agent orchestration}
+
+\resumeSubItem{Directure --- AI Film Production Platform \textit{(Xoidlabs)}}
+  {AI-powered movie-making platform positioned as an operating system for hybrid filmmaking. Built the invoicing and budget-tracking module, and the scripting/screenplay breakdown engine that parses a screenplay into tagged production elements --- props, wardrobe, set dressing, makeup and vehicles --- which feed downstream scheduling, call sheets and continuity checks. Stack: Next.js, FastAPI, LLM parsing pipeline}
+
+\resumeSubItem{Recapi.ai --- AI Employee Platform \textit{(Xoidlabs)}}
+  {AI-agent platform deploying trained digital workers for sales outreach, meeting management and voice support across healthcare, finance, retail and real-estate workflows. Shipped product features and cut response latency by 20\%}
+
+\resumeSubItem{FreshSnap AI --- Pantry \& Recipe AI \textit{(AgentLabs)} --- iOS \& Android}
+  {Cross-platform app published to iOS and Android. AI vision auto-detects and logs items from pantry, fridge, shopping cart, receipt and barcode photos without the user selecting a source type. Tracks expiry with timed notifications, generates diet-aware recipes (vegetarian, vegan, gluten-free, keto, halal) that prioritise soon-to-expire ingredients, ships a 246-recipe cookbook with nutrition breakdowns, guided cook mode with timers auto-parsed from instructions, meal planning and aisle-sorted shopping lists, plus optional cloud sync. Stack: React Native, Expo, AI vision, Supabase}
+
+\resumeSubItem{Old Photo Animator AI --- Restore, Colorize \& Animate \textit{(AgentLabs)} --- iOS \& Android}
+  {Cross-platform generative-AI app published to iOS and Android. Repairs scratches, tears, dust, blur and noise while preserving facial detail; colorizes black-and-white and sepia photos with realistic skin tones; animates still portraits into short HD videos. One-tap flow with no sign-in, watermark-free export, and credit-based in-app purchase billing instead of subscriptions. Stack: React Native, generative video models, IAP billing}
+
+\resumeSubItem{Career Craft --- AI Interview Prep \textit{(AgentLabs)} --- Android}
+  {Android app for practising AI-driven mock interviews, exploring jobs and preparing for career moves. Shipped through the full Play Console pipeline --- signing, store listing, data-safety declarations and staged rollout}
+
+\resumeSubItem{QuickBooks + PDF RAG Assistant \textit{(AgentLabs client delivery)}}
+  {Retrieval-augmented chatbot ingesting PDF documents and QuickBooks XML exports into a vector store, then answering finance and operations questions grounded in that context with citations back to the source records. Stack: LangChain, vector DB, FastAPI, Next.js}
+
+\resumeSubItem{AgentLabs Website \& Auto Blog Engine \textit{(AgentLabs)}}
+  {Built the agency website plus an automated blog pipeline that generates, formats and publishes SEO posts on a schedule --- keeping the content engine running with no manual writing or deploys. Stack: Next.js, LLM content generation, Vercel}
+
+\resumeSubItem{Printify MCP Server \textit{(Personal)}}
+  {Architected MCP server exposing 59 tools including product APIs, AI design generation (Gemini + Replicate), image processing, Etsy keyword research and webhook automation}
+
+\resumeSubItem{SecretEcho Plugin Generator \textit{(Personal)}}
+  {Engineered AI-powered WooCommerce plugin generator with real-time WebSocket streaming, Monaco editor, credits system and admin dashboard, reducing manual development effort}
+
+\resumeSubItem{Kuber WebStore \textit{(Personal)}}
+  {Designed Kubernetes-native multi-tenant WooCommerce platform with namespace-per-store isolation, RBAC, NetworkPolicies, Helm deployments and crash recovery}
+
+\resumeSubItem{Trading Bot \textit{(Personal)}}
+  {Implemented trading system with backtesting (60\% win rate), multi-timeframe strategies, Kelly Criterion position sizing and AI-based sentiment signals, deployed on Azure}
+
+\resumeSubItem{CRM Chrome Extension \textit{(Personal)}}
+  {Built Chrome extension enabling real-time ActiveCampaign CRM data synchronization, advanced search and CSV/JSON export}
+
+\resumeSubItem{n8n Automation Workflows \textit{(Personal)}}
+  {Automated 7 production workflows for invoicing, lead capture, social auto-posting and AI-driven responses}
+
+\resumeSubItem{IndiaExplorer \textit{(Personal)}}
+  {Launched travel booking platform with Razorpay payments, rewards system and automated notifications on Next.js 14 + Supabase}
+
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+
+%-----------CERTIFICATIONS-----------------
+\section{Certifications}
+\resumeSubHeadingListStart
+  \resumeSubItem{Responsive Web Design}{FreeCodeCamp – 300-hour certification (\href{https://www.freecodecamp.org/certification/shubham996633/responsive-web-design}{View})}
+  \resumeSubItem{JavaScript Algorithms and Data Structures}{FreeCodeCamp – 300-hour certification (\href{https://www.freecodecamp.org/certification/shubham996633/javascript-algorithms-and-data-structures}{View})}
+  \resumeSubItem{Front End Development Libraries}{FreeCodeCamp – 300-hour certification (\href{https://www.freecodecamp.org/certification/shubham996633/front-end-development-libraries}{View})}
+  \resumeSubItem{Data Analysis with Python}{FreeCodeCamp – 300-hour certification (\href{https://www.freecodecamp.org/certification/shubham996633/data-analysis-with-python-v7}{View})}
+\resumeSubHeadingListEnd
+
+\end{document}
